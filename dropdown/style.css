@@ -14,23 +14,23 @@ li a {
     color: #fff;
     background: #82cddd;
 }
-.listl{
+.list1{
     display: block;
     width: 100%;
     position: fixed;
     padding: 0;
 }
-.listl li {
+.list1 li {
     list-style: none;
 }
-.listl li a {
+.list1 li a {
     float: left;
-    border-right: 1px solid#fff;
+    border-right: 1px solid #fff;
 }
-.listl li:last-child a {
+.list1 li:last-child a {
     border-right: none;
 }
-.listl li a:hover {
+.list1 li a:hover {
     background: #00afcc;
 }
 .parent {
