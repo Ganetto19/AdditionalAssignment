@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
 #content1 {
-    position:  relative;
+    position: relative;
     height: 100vh;
 }
 li a {
     display: block;
     width: 20%;
-    padding: lem;
+    padding: 1em;
     text-align: center;
     text-decoration: none;
     box-sizing: border-box;
     color: #fff;
     background: #82cddd;
 }
-.list1{
+.list1 {
     display: block;
     width: 100%;
     position: fixed;
@@ -25,7 +25,7 @@ li a {
 }
 .list1 li a {
     float: left;
-    border-right: 1px solid #fff;
+    border-right: 1px solid#fff;
 }
 .list1 li:last-child a {
     border-right: none;
@@ -42,26 +42,15 @@ li a {
     display: none;
     position: absolute;
     padding: 0;
-    top: 56px;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0s;
+    top: 56px;  
 }
 .parent ul a{
     float: none;
     width: 100%;
-    border-top: 1px  solid  #fff;
-    visibility: hidden;
-    opacity: 0;
-    transition: .5s;
+    border-top: 1px solid #fff;
 }
 .parent:hover ul {
-   visibility: visible;
-   opacity: 1;
-}
-.parent:hover ul a {
-    visibility: visible;
-    opacity: 1;
+    display: block;
 }
 
 .child1 {
@@ -77,5 +66,31 @@ li a {
     left: 60%;
 }
 .child5 {
-    left: 80%;    
+    left: 80%;
+}
+.parent ul {
+    width: 20%;
+    display: none;
+    position: absolute;
+    padding: 0;
+    top: 56px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0s;
+}
+.parent ul a{
+    float: none;
+    width: 100%;
+    border-top: 1px solid #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.parent:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+.parent:hover ul a {
+    visibility: visible;
+    opacity: 1;
 }
