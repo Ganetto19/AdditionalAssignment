@@ -21,10 +21,13 @@ body {
     bottom: 0;
     right: 0;
     opacity: 0;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-repeat: no-
+    repeat;
+    background-position: center
+     center;
     background-size: cover;
-    animation: bgAnime 15s infinite;
+    animation: bgAnime 15s 
+    infinite;
 }
 
 .bgFadeIn  .bgImg {

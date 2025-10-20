@@ -3,7 +3,8 @@ body {
     background: #efefef;
     margin: 0;
     padding: 0;
-    animation: bgcolor 20s ease infinite;
+    animation: bgColor 20s ease
+ infinite;
 }
 
 
