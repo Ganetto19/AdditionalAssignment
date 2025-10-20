@@ -11,7 +11,7 @@ body {
     background: #c56fa6;
     color: #fff;
 }
- #header {
+ #header h1 {
     margin: 0;
     padding: 1em;
     letter-spacing: 0.1em;
@@ -29,15 +29,15 @@ body {
     #footer {
         background: #000;
         color: #fff;
-        font-size: 0.7em;
-    
+        font-size: 0.7em;  
         margin: 0;
         padding: 2rem;
     }
     
     /*フェードアップ*/
     .fadeUp{
-        animation-name: fadeIn;
+        opacity: 0;
+        animation-name: fadeUp;
         animation-duration: 1s;
         animation-timing-function: ease;
         animation-delay: .25s;
@@ -65,11 +65,14 @@ body {
         animation-fill-mode: forwards;
     }
 
-    @keyframes fadeIn{
+    @keyframes fadeUp{
         0% {
             opacity: 0;
+            transform:
+            translateY(200px);
         }
         100% {
             opacity: 1;
+            transform: translateY(0);
         }
     }
